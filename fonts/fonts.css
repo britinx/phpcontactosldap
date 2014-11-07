@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'corbelregular';
+    src: url('corbel-webfont.eot');
+    src: url('corbel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('corbel-webfont.woff') format('woff'),
+         url('corbel-webfont.ttf') format('truetype'),
+         url('corbel-webfont.svg#corbelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'corbelbold';
+    src: url('corbelb-webfont.eot');
+    src: url('corbelb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('corbelb-webfont.woff') format('woff'),
+         url('corbelb-webfont.ttf') format('truetype'),
+         url('corbelb-webfont.svg#corbelbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'corbelitalic';
+    src: url('corbeli-webfont.eot');
+    src: url('corbeli-webfont.eot?#iefix') format('embedded-opentype'),
+         url('corbeli-webfont.woff') format('woff'),
+         url('corbeli-webfont.ttf') format('truetype'),
+         url('corbeli-webfont.svg#corbelitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+	font-family: 'corbelbold';
+	font-size: 4rem;
+	letter-spacing: -0.08em;
+}
+h2 {
+	font-family: 'corbelregular';
+	font-size: 1.4rem;
+	/*letter-spacing: -0.08em;*/
+	color: #888;
+}
+h3 {
+	font-family: 'corbelregular';
+	font-size: 1.8rem;
+	color: #888;
+}
+h7 {
+	font-family: 'corbelitalic';
+	font-size: 0.8rem;
+	color:#888
+}
+body {
+	font-family: 'corbelregular';
+}
