@@ -90,10 +90,10 @@ isset($_SESSION['sess_user']) or die(header('Location: '.$BASEDIR.'/login.php'))
 		<div class="content" data-slug="panel1">
 		<form id="busqueda" name="busqueda" method="get" action="<?php echo BASEURL;?>/buscar.php">
 			<div class="row collapse">
-			<div class="large-8 columns">
+			<div class="small-8 columns">
 				<input type="text" name="parametro" id="parametro" placeholder="Ingrese su búsqueda acá"/>
 			</div>
-			<div class="large-4 columns">
+			<div class="small-4 columns">
 				<input style="height:2.3125rem" type="submit" class="button small expand alert" name="button" id="button" value="Buscar"/>
 			</div>
 			</div>

@@ -67,7 +67,7 @@ require(realpath(dirname(__FILE__)."/php/init.php"));
 </nav>
 
 <div class="row">
-<div class="large-12 columns">
+<div class="small-12 columns">
 	<br/>
 	<h1>Iniciar sesión</h1>
 	<h3>Por favor, ingresa tus datos para ingresar al sistema:</h3>
@@ -77,19 +77,20 @@ require(realpath(dirname(__FILE__)."/php/init.php"));
 			<div class="content" data-slug="panel1">
 			<form data-abide id="login" name="login" method="post" action="<?php echo BASEURL;?>/php/login.php">
 				<div class="row collapse">
-				<div class="large-2 columns">
+				<div class="small-2 columns">
 					<label class="inline">Usuario</label>
 				</div>
-				<div class="large-10 columns">
+				<div class="small-10 columns">
 					<input type="text" name="username" id="username" placeholder="Usuario" required />
 					<small class="error">Por favor ingrese su nombre de usuario</small>
 				</div>
 				</div>
 				<div class="row collapse">
-				<div class="large-2 columns">
-					<label class="inline">Contraseña</label>
+				<div class="small-2 columns">
+					<label class="inline show-for-small-only">Clave</label>
+					<label class="inline show-for-medium-up">Contraseña</label>
 				</div>
-				<div class="large-10 columns">
+				<div class="small-10 columns">
 					<input type="password" id="password" name="password" placeholder="Clave" required />
 					<small class="error">Por favor ingrese su contraseña</small>
 				</div>
@@ -104,10 +105,10 @@ require(realpath(dirname(__FILE__)."/php/init.php"));
 </div>
 
 <footer class="row">
-	<div class="large-12 columns">
+	<div class="small-12 columns">
 	<hr/>
 	<div class="row">
-	<div class="large-6 columns">
+	<div class="small-6 columns">
 		<h7><?php echo $FOOTER;?></h7>
 		<br/>
 		<h7><?php echo $CREDITS;?></h7>

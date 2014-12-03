@@ -93,29 +93,29 @@ isset($_GET['cn']) or die(header('Location: '.$BASEDIR.'/buscar.php'));
 		<form id="detalle" name="detalle" method="post" action="editar.php">
 		<div class="large-9 columns">
 			<div class="row">
-			<div class="large-4 columns">
+			<div class="small-4 columns">
 				<input type="hidden" name="gn" id="gn" value="<?php echo $busqueda[0]["givenname"][0];?>"/>
 				<label class="inline">Nombre: <b><?php echo $busqueda[0]["givenname"][0];?></b></label>
 			</div>
-			<div class="large-4 columns">
+			<div class="small-4 columns">
 				<input type="hidden" name="sn" id="sn" value="<?php echo $busqueda[0]["sn"][0];?>"/>
 				<label class="inline">Apellido: <b><?php echo $busqueda[0]["sn"][0];?></b></label>
 			</div>
-			<div class="large-4 columns">
+			<div class="small-4 columns">
 				<input type="hidden" name="ou" id="ou" value="<?php echo $busqueda[0]["ou"][0];?>"/>
 				<label class="inline">Sección: <b><?php echo $busqueda[0]["ou"][0];?></b></label>
 			</div>
 			</div>
 			<div class="row">
-			<div class="large-4 columns">
+			<div class="small-4 columns">
 				<input type="hidden" name="mobile" id="mobile" value="<?php echo $busqueda[0]["mobile"][0];?>"/>
 				<label class="inline">Celular: <b><?php echo $busqueda[0]["mobile"][0];?></b></label>
 			</div>
-			<div class="large-4 columns">
+			<div class="small-4 columns">
 				<input type="hidden" name="tel" id="tel" value="<?php echo $busqueda[0]["telephonenumber"][0];?>"/>
 				<label class="inline">Teléfono: <b><?php echo $busqueda[0]["telephonenumber"][0];?></b></label>
 			</div>
-			<div class="large-4 columns">
+			<div class="small-4 columns">
 				<input type="hidden" name="mail" id="mail" value="<?php echo $busqueda[0]["mail"][0];?>"/>
 				<label class="inline">E-Mail: <b><?php echo $busqueda[0]["mail"][0];?></b></label>
 			</div>
